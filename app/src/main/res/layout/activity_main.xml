@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="727dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center"
+                android:text="@string/bio_title"
+                android:textAlignment="center"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/first_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/first_name_text" />
+
+                <EditText
+                    android:id="@+id/first_name_input"
+                    android:layout_width="170dp"
+                    android:layout_height="48sp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/first_name_text"
+                    android:inputType="textPersonName"
+                    android:textColor="#8E8E8E"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/last_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/last_name_text" />
+
+                <EditText
+                    android:id="@+id/last_name_input"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/last_name_text"
+                    android:inputType="textPersonName"
+                    android:textColor="#FF505050"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/school_text"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/school_text"
+
+                    />
+
+                <EditText
+                    android:id="@+id/school_input"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/school_text"
+                    android:inputType="textPersonName"
+                    android:textColor="#686868"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/year_of_grad_text"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/year_of_graduation_text" />
+
+                <EditText
+                    android:id="@+id/year_of_grad"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/year_of_graduation_text"
+                    android:inputType="textPersonName"
+                    android:textColor="#6E6E6E"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/degrees_text"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/degrees_text" />
+
+
+                <EditText
+                    android:id="@+id/degrees_input"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/degrees_text"
+                    android:inputType="textPersonName"
+                    android:textColor="#6E6E6E"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/major_text"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/major_text" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/favorite_activities_text"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/favorite_activities" />
+
+                <EditText
+                    android:id="@+id/favorite_activities"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:autofillHints="name"
+                    android:ems="10"
+                    android:hint="@string/favorite_activities"
+                    android:inputType="text"
+                    android:textColor="#6E6E6E"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/createButton"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_text"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

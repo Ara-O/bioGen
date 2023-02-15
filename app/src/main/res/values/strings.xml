@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">bioGen</string>
+    <string name="bio_title">Create your Bio!!</string>
+    <string name="first_name_text">First Name</string>
+    <string name="first_name_hint_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="last_name_hint_text">Last Name</string>
+    <string name="school_text">School</string>
+    <string name="year_of_graduation_text">Year of Graduation</string>
+    <string name="degrees_text">Degree</string>
+    <string name="BS">B.S.</string>
+    <string name="MS">M.S.</string>
+    <string name="PhD">Ph.D.</string>
+    <string name="BAS">BAS</string>
+    <string name="M.A.">M.A.</string>
+    <string name="M.D.">M.D.</string>
+    <string name="B.A.">B.A.</string>
+    <string name="MFA">MFA</string>
+    <string name="DDS">DDS</string>
+    <string name="BFA">BFA</string>
+    <string name="MBA">MBA</string>
+    <string name="J.D.">J.D.</string>
+    <string name="major_text">Major</string>
+    <string name="favorite_activities">Favorite Activities</string>
+    <string-array name="majors_list">
+        <item>Computer Science</item>
+        <item>Electrical Engineering</item>
+        <item>Biology</item>
+        <item>Robotics</item>
+        <item>English</item>
+        <item>History</item>
+        <item>Some Other Major</item>
+    </string-array>
+    <string name="electrical_engineering_text">Electrical Engineering</string>
+    <string name="biology_text">Biology</string>
+    <string name="create_text">Create</string>
+</resources>
